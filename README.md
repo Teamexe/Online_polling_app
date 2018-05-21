@@ -4,4 +4,5 @@ This repository holds online polling app created by Team.EXE. It can be used for
 
 # Installation Guide:
 Install LAMP package on your system.
-start with localhost/Online_polling_app/homepage.php
+start with localhost/Online_polling_app/homepage.php   .
+
