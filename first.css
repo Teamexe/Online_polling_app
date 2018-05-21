@@ -1,0 +1,145 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  padding: 0;
+  margin: 0;
+}
+.portrait 
+{
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color:#1a237e
+;
+  background-image:url(http://exe.nith.ac.in/images/logo.png), radial-gradient(circle at left, #34373e, #18171d);
+  background-repeat: no-repeat;
+  background-blend-mode: lighten;
+  background-size: contain;
+  background-position: bottom;
+
+}
+.nav-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.intro {
+  
+}
+.text-container {
+  width: 318px;
+  position: relative;
+  top: 50vh;
+  left: 3vw;
+}
+.title-text {
+  font-family: "Unica One", serif;
+  font-size: 120px;
+  margin: 0;
+  line-height: 90px;
+  color: #fff;
+}
+.sub-text {
+  font-family: "Kelly Slab", sans-serif;
+  font-size: 33px;
+  color: white;
+  margin: 0 10px 0;
+}
+.body {
+  margin-top: 50vh;
+  margin-left: 10px;
+  padding-bottom: 26vh;
+}
+.body-text {
+  color: #fff;
+  font-family: "Rajdhani", sans-serif;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  width: 160px;
+  justify-content: space-between;
+}
+.icon {
+  width: 36px;
+  height: 36px;
+  filter: invert();
+  display: block;
+}
+ul {
+  margin: 0;
+  list-style: none;
+}
+.attribution {
+  border-top: 1px solid rgba(255, 255, 255, .5);
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: -3vw;
+}
+.author {
+  font-family: "Rajdhani", sans-serif;
+  color: #fff;
+  margin: 10px 5vw;
+}
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 799px) {
+  .portrait {
+    background-position: bottom right;
+  }
+  .text-container {
+    top: 50vh;
+    left: 8vw;
+  }
+  .nav-container {
+    top: 20px;
+    left: 20px;
+  }
+}
+@media screen and (max-width: 659px) {
+  .text-container {
+    top: 64vh;
+    left: 5vw;
+  }
+  .body {
+  }
+}
+@media screen and (max-width: 350px) {
+  .text-container {
+    left: 0;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .title-text {
+    text-align: center;
+  }
+  .sub-text {
+    transform: translateX(4px);
+  }
+  ul {
+    width: 260px;
+  }
+  .nav-container {
+    left: 0;
+    margin: 0;
+    padding: 0;
+  }
+}
+a.sdp_animLine {
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  display: inline-block;
+  margin: -0.5em;
+  color:#292929; 
+  position: relative;
+  transition:color 0.25s ease;
+  cursor: pointer;
+}
+
+
+
