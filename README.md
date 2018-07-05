@@ -20,4 +20,5 @@ Just check by running the following command : *php -r 'echo "\n\nYour PHP instal
 ## 7. Install phpMyAdmin
 Run the command : *sudo apt-get install phpmyadmin*
 Check phpMyAdmin by running http://localhost/phpmyadmin in browser.
+Keep the repository containing the code in /var/www/html, and then
 start with localhost/Online_polling_app/homepage.php
